@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'OpenDyslexic3';
+    src: url('OpenDyslexicThree-Bold.woff2') format('woff2'),
+        url('OpenDyslexicThree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.bio_bold {
+    font-family: 'OpenDyslexic 3';
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+

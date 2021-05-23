@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('OpenDyslexicThree-Regular.woff2') format('woff2'),
+        url('OpenDyslexicThree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+  color: #848d96;
+  text-decoration: none;
+  
+}
+
+.body {
+  display: block;
+  max-height: 100vh;
+  background-color: #0b1c2f;
+  font-family: Inter, sans-serif;
+}
+
+#topSection {
+	background-color: #eddd6e;
+	padding: 3%;
+	padding-bottom: 3%;
+}
+
+.nav {
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.footer {
+	padding: 30px;
+}
+
+.leftcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-right: auto;
+  padding-left: 30px;
+}
+
+.columns {
+ 
+  height: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  padding: 25px;
+}
+
+.name {
+  padding: 20px;
+  color: #47bec7;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.tagline {
+  color: #848d96;
+  font-size: 58px;
+  line-height: 100%;
+  font-family: 'OpenDyslexic3';
+    src: url('OpenDyslexicThree-Bold.woff2') format('woff2'),
+        url('OpenDyslexicThree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+	text-align: center;
+}
+
+.bio {
+  font-family: Lora, sans-serif;
+}
+
+.index_bio {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+}
+
+.text-block-2 {
+  margin-bottom: 20px;
+  color: #485462;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.list {
+  font-family: Lora, sans-serif;
+  color: #848d96;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.credit {
+  color: #485462;
+  font-size: 13px;
+}
+
+.rightcontent {
+  overflow: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: absolute;
+}
+
+.rightcontent_index{
+  overflow: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: absolute;
+  background-color: beige;
+}
+
+.content {
+  overflow: auto;
+}
+
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.bio-links {
+  border-bottom: 1px solid #848d96;
+  text-decoration: none;
+}
+
+.credit-links {
+  color: #485462;
+}
+
+.image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: block;
+  min-height: 100vh;
+  min-width: 100%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: url('../images/WIT Logo_resized.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .leftcontent {
+    display: block;
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .rightcontent {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .rightcontent_index {
+    padding-top: 120px;
+    padding-bottom: 120px;
+	background-color: beige;
+  }
+
+  .links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+
+  .column-2 {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    position: static;
+    height: 420px;
+    max-height: 50vh;
+    min-height: auto;
+    background-position: 50% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .name {
+    margin-bottom: 20px;
+  }
+
+  .rightcontent {
+    padding: 60px;
+  }
+  
+  .rightcontent_index {
+    padding: 60px;
+	background-color: beige;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .bold-text {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .credit {
+    font-size: 12px;
+  }
+
+  .rightcontent {
+    padding: 30px;
+	background-color: beige;
+  }
+
+  .image {
+    height: 240px;
+    max-height: 30vh;
+  }
+}
+
