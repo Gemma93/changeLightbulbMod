@@ -8,7 +8,7 @@
 }
 
 a {
-  color: #848d96;
+  color: #162961;
   text-decoration: none;
   
 }
@@ -16,12 +16,12 @@ a {
 .body {
   display: block;
   max-height: 100vh;
-  background-color: #0b1c2f;
-  font-family: Inter, sans-serif;
+  background-color: #ffffe1;
+  font-family: OpenDyslexic;
 }
 
 #topSection {
-	background-color: #eddd6e;
+	background-color: #ffffe1;
 	padding: 3%;
 	padding-bottom: 3%;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 .tagline {
-  color: #848d96;
+  color: #162961;
   font-size: 58px;
   line-height: 100%;
   font-family: 'OpenDyslexic3';
@@ -84,7 +84,10 @@ a {
 }
 
 .bio {
-  font-family: Lora, sans-serif;
+  font-family: OpenDyslexic;
+  letter-spacing: 4px;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .index_bio {
@@ -103,7 +106,7 @@ a {
 
 .list {
   font-family: Lora, sans-serif;
-  color: #848d96;
+  color: #162961;
   font-size: 16px;
   line-height: 160%;
 }
@@ -190,7 +193,7 @@ a {
 }
 
 .bio-links {
-  border-bottom: 1px solid #848d96;
+  border-bottom: 1px solid #162961;
   text-decoration: none;
 }
 
